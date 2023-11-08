@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-04T08:13:50 PDT" name="Default suite" finished-at="2023-11-04T08:13:50 PDT" duration-ms="78">
+    <groups>
+      <group name="Regression">
+        <method signature="PracticeTestngMethod.dress()[pri:1, instance:com.testng.practice.PracticeTestngMethod@68567e20]" name="dress" class="com.testng.practice.PracticeTestngMethod"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="PracticeTestngMethod.login()[pri:0, instance:com.testng.practice.PracticeTestngMethod@68567e20]" name="login" class="com.testng.practice.PracticeTestngMethod"/>
+        <method signature="PracticeTestngMethod.dress()[pri:1, instance:com.testng.practice.PracticeTestngMethod@68567e20]" name="dress" class="com.testng.practice.PracticeTestngMethod"/>
+        <method signature="PracticeTestngMethod.cart()[pri:2, instance:com.testng.practice.PracticeTestngMethod@68567e20]" name="cart" class="com.testng.practice.PracticeTestngMethod"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-11-04T08:13:50 PDT" name="Default test" finished-at="2023-11-04T08:13:50 PDT" duration-ms="78">
+      <class name="com.testng.practice.PracticeTestngMethod">
+        <test-method signature="login()[pri:0, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="login" finished-at="2023-11-04T08:13:50 PDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="login" finished-at="2023-11-04T08:13:50 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="login" finished-at="2023-11-04T08:13:50 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="login" finished-at="2023-11-04T08:13:50 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login()[pri:0, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="login" finished-at="2023-11-04T08:13:50 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dress()[pri:1, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="dress" finished-at="2023-11-04T08:13:50 PDT" depends-on-methods="com.testng.practice.PracticeTestngMethod.login" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dress -->
+        <test-method signature="cart()[pri:2, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="cart" finished-at="2023-11-04T08:13:50 PDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="placeOrder()[pri:4, instance:com.testng.practice.PracticeTestngMethod@68567e20]" started-at="2023-11-04T08:13:50 PDT" name="placeOrder" finished-at="2023-11-04T08:13:50 PDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+      </class> <!-- com.testng.practice.PracticeTestngMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
